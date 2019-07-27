@@ -1,6 +1,28 @@
 body {
 	display: block;	
-	background-image: url("../img/background-image.jpg");
+	background-image: url("../img/course-user.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
-	width: 100%;
+}
+.techademy {
+	background-image: url("../img/techademy.png");
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 100%;
+	padding-top: -10px;
+	color: transparent;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	margin-left: 20px;
+	padding: 0px 25px;
+	color: #fff;
+	
+}
+.form-group {
+	margin-left: 100px;
+}	
+.form-group, input {
+	margin: 0 10px;
+	padding: 6px;
+	border-radius: 50px;
 }
