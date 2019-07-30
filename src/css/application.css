@@ -1,3 +1,88 @@
-section {
-	width: 100%;
+.img-head{
+	width: 1440px;
+	height: 700px;
+	display: flex;
+}
+nav {
+	margin-top: -700px;
+}
+.tech1{
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 22px;
+	color: transparent;
+	width: 150px;
+}
+.navbar-nav {
+	margin-left: 200px;
+}
+.nav-item {
+	margin-left: 20px;
+}
+.nav-link {
+	color: #fff;	
+}
+.head-form {
+	margin-left: 150px;
+}
+input {
+	height: 35px;
+	margin-top: 5px;
+	border-radius: 50px;
+	border:1px solid #fff;
+	padding-left: 15px;
+}
+.submit {
+ 
+ width: 150px;
+ border-radius: 50px;
+}
+.head-center {
+	margin-top: 360px;
+	color: #fff;
+
+}
+.head-center p {
+	line-height: 0.6em;
+}
+.center-btn {
+	margin-top: 20px;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	border:1px solid #fff;
+	background-color: #fff;
+	padding-top: 10px;
+}
+.column-layout {
+	display: flex;
+	margin-top: 62px;
+}
+.img-left {
+	width: 720px;
+	height:250px;	
+}
+.column-left h1,p{
+	margin-top: -150px;
+	color: #333;
+}
+.column-right h1,p{
+	margin-top: -150px;
+	color: #333;
+}
+.img-right {
+	width: 720px;
+	height:250px;
+	
+}
+.column-right a:hover {
+	
+	text-decoration: none;
+}
+.column-right a {
+	border:2px solid blue;
+	border-radius: 50px;
+	padding: 5px 20px;
+	background-color: #fff;
 }
