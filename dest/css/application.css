@@ -1,7 +1,6 @@
 .img-head{
-	width: 1440px;
+	width: 100%;
 	height: 700px;
-	display: flex;
 }
 nav {
 	margin-top: -700px;
@@ -60,7 +59,7 @@ input {
 	margin-top: 62px;
 }
 .img-left {
-	width: 720px;
+	width: 674px;
 	height:250px;	
 }
 .column-left h1,p{
@@ -72,7 +71,7 @@ input {
 	color: #333;
 }
 .img-right {
-	width: 720px;
+	width: 674px;
 	height:250px;
 	
 }
@@ -85,4 +84,114 @@ input {
 	border-radius: 50px;
 	padding: 5px 20px;
 	background-color: #fff;
+}
+.section-card {
+	margin-top: 70px;
+	text-align: center;
+}
+.next {
+	float: right;
+	text-align: right;
+}
+.round-circle {
+	text-align: center;
+	margin-top: 15px;
+}
+.dots {
+	height: 15px;
+	width: 15px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	margin:0 10px;
+
+}
+.row-img {
+	margin: 10px 10px;
+}
+.img-footer {
+	width: 100%;
+	height: 600px;
+}
+.content-end {
+	margin-top: -400px;
+	width: 400px;
+	margin-left: 700px;
+}
+.back-end-color {
+	background-color: #28303D;
+	margin-top: 70px;
+}
+.end-column {
+
+	padding: 40px 0;
+	display: flex;
+	color: #fff;
+}
+.end-column p{
+	color: #fff;
+}
+.follow-ul {
+	padding: 40px 0;
+}
+.follow-ul a{
+	padding-left: 15px;
+	color: #fff;
+}
+.follow {
+	flex: 2;
+
+}
+.follow2, .follow3 ul {
+	line-height: 2.6em;
+}
+.follow2 li {
+	list-style-type: none;
+
+}
+.follow2 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.follow2 a {
+	color: #fff;
+}
+.follow2 {
+	flex: 1;
+
+}
+.follow3 {
+	flex: 1;
+}
+.follow3 li {
+	list-style-type: none;
+}
+.follow3 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.follow3 a {
+	color: #fff;
+}
+.footer-end {
+	background-color: #28343e;
+
+}
+.content-footer{
+	display: flex;
+	padding: 20px 0px;
+
+}
+.content-footer span {
+	
+	padding: 0 20px;
+	color: #fff;
+}
+.content-footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.footer-right {
+	float: right;
+	margin-left: 800px;
 }
