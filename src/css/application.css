@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 700px;
 }
-nav {
+.index-head-bar {
 	margin-top: -700px;
 }
 .tech1{
@@ -20,7 +20,7 @@ nav {
 	margin-left: 20px;
 }
 .nav-link {
-	color: #fff;	
+	color: #999;	
 }
 .head-form {
 	margin-left: 150px;
@@ -38,13 +38,13 @@ input {
  border-radius: 50px;
 }
 .head-center {
-	margin-top: 360px;
-	color: #fff;
-
-}
-.head-center p {
-	line-height: 0.6em;
-}
+	margin-top: 260px;
+	color: #000;         
+ 
+} 
+/*.head-center p {
+	line-height: 2.6em;
+}*/
 .center-btn {
 	margin-top: 20px;
 	border-radius: 50px;
@@ -158,7 +158,6 @@ input {
 }
 .follow2 {
 	flex: 1;
-
 }
 .follow3 {
 	flex: 1;
@@ -194,4 +193,92 @@ input {
 .footer-right {
 	float: right;
 	margin-left: 800px;
+}
+
+/* Home page start */
+.home-head {
+ display: flex;
+ position: relative;
+ flex-direction: row;
+ background-color: #131925;
+ margin: 0;
+ padding: 10px 10px;
+}
+.home-head a {
+	text-decoration: none;
+	color: #fff;
+}
+.badge {
+	top: 0;
+	left: 0;
+	position: relative;
+}
+.badge1 {
+	left:-90px;
+	position: relative;
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.badge2 {
+	left: -122px;
+	position: relative;
+	z-index: 2;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.badge3 {
+	left: -147px;
+	position: relative;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.badge4 {
+	left: -173px;
+	position: relative;
+	z-index: 4;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.badge-icon::before {
+	margin-left: -320px;
+	font-size: 20px;
+}
+.img-user1 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	margin-left: 15px;
+}
+.tech2 {
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 22px;
+	color: transparent;
+	width: 150px;
+	margin-left: -190px;
+	padding-top: -25px;
+
+}
+.tech2 a{
+	color: transparent;
+}
+body {
+	background-color: #131925;
+}
+
+/* Media Query home page */
+@media screen and(max-width: 320px) {
+	.home-head {
+		width: 100%;
+		background-color:#131925; 
+	}
+
+
 }
