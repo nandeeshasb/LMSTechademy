@@ -1,58 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title></title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/application.css">
-</head>
-<body>
-	<section>
-		<nav class="navbar navbar-expand home-head">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<span class="tech2">techademy1</span>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">
-						<span class="glyphicon glyphicon-home"></span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">COURSE CATALOGUE</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">MY LEARNING</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">MY SKILLS</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">ASSIGNMENTS</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav">
-				<li class="nav-item badge">
-					<a href="#">
-						<img class="badge1" src="../img/badges1.jpg">
-						<img class="badge2" src="../img/badges2.jpg">
-						<img class="badge3" src="../img/badges3.jpg">
-						<img class="badge4" src="../img/badges4.jpg">
-						<span class="glyphicon glyphicon-menu-down badge-icon"></span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a href="#">
-						<img class="img-user1" src="../img/user.jpg">
-						<span class="glyphicon glyphicon-option-vertical"></span>
-					</a>
-				</li>
-				<!--<span class="glyphicon glyphicon-menu-hamburger" id="hamburger"></span>-->
-			</ul>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		</nav>
-	</section>
-	
+</head>
+<body class="home-body">
+	<header>
+		<div class="container-fluid">
+        <button class="hamburger" type="button" href="show1"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+        <a class="user" href="#"><span class="user-name"></span><span class="user-pic"></span></a><a class="techademy1" href="#">Techademy</a>
+        <ul class="navigation">
+        	<li class="homenav" id="show1"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>        	<li><a href="#">Course Catalogue</a></li>
+          	<li><a href="#">My Learning</a></li>
+          	<li><a href="#">My Skills</a></li>
+          	<li><a href="#">Assignments</a></li>
+          	<li class="viewBadges">
+          	 	<a class="badgeDrop" href="#">
+          	 		<span class="badges badge1"></span>
+          	 		<span class="badges badge2"></span>
+          	 		<span class="badges badge3"></span>
+          	 		<span class="badges badge4"></span>
+          	 		<span class="glyphicon glyphicon-menu-down"></span>
+          	 	</a>
+          	 	<div class="drop-down d-none">
+	          	 	<a href="#"><div class="badges badge1"></div></a>
+	                <a href="#"><div class="badges badge2"></div></a>
+	                <a href="#"><div class="badges badge3"></div></a>
+	                <a href="#"><div class="badges badge4"></div></a>
+	                <a href="#"><div class="badges badge3"></div></a>
+	                <a href="#"><div class="badges badge1"></div></a>
+	                <a href="#"><div class="badges badge2"></div></a>
+	                <a href="#"><div class="badges badge4"></div></a>
+            	</div>
+        	</li>
+        </ul>
+    </header>
 	<script type="text/javascript" href="js/jquery.js"></script>
 	<script type="text/javascript" href="js/bootstrap.js"></script>
 	<script type="text/javascript" href="js/application.js"></script>

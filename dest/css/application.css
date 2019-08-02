@@ -42,9 +42,12 @@ input {
 	color: #000;         
  
 } 
-/*.head-center p {
-	line-height: 2.6em;
-}*/
+.head-center p {
+	line-height: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
 .center-btn {
 	margin-top: 20px;
 	border-radius: 50px;
@@ -61,19 +64,20 @@ input {
 .img-left {
 	width: 674px;
 	height:250px;	
+	margin-top: 94px;
 }
-.column-left h1,p{
+.column-left h1{
 	margin-top: -150px;
 	color: #333;
 }
-.column-right h1,p{
+.column-right h1{
 	margin-top: -150px;
 	color: #333;
 }
 .img-right {
 	width: 674px;
 	height:250px;
-	
+	margin-top: 94px;
 }
 .column-right a:hover {
 	
@@ -195,7 +199,7 @@ input {
 	margin-left: 800px;
 }
 
-/* Home page start */
+/* Home page start *
 .home-head {
  display: flex;
  position: relative;
@@ -269,16 +273,45 @@ input {
 .tech2 a{
 	color: transparent;
 }
-body {
+/*.home-body {
 	background-color: #131925;
 }
 
 /* Media Query home page */
-@media screen and(max-width: 320px) {
-	.home-head {
-		width: 100%;
-		background-color:#131925; 
-	}
-
-
+/*---- home page start----*/
+a {
+  color: #B9BBBF; 
 }
+
+a:hover {
+  color: #FFF; 
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: none; 
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+header {
+	background-color: #131925;
+	left: 0;
+	top: 0;
+}
+.techademy1 {
+	color:transparent;
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+.hamburger {
+	float: right;
+}
+#show1 {
+	overflow: hidden;
+}
+  
