@@ -296,48 +296,51 @@ ol, ul {
   margin: 0;
   padding: 0; 
 }
-header {
+.head-nav {
 	background-color: #131925;
 	width: 100%;
 }
-header nav {
+.head-nav .navbar {
 	width: 100%;
 	max-width: 1200px;
-	margin: 20px auto;
+	margin: 0px auto;
 	background-color: #131925;
 }
-.manu-bar {
+.menu-bar {
 	display:none;
 }
-header nav ul {
-	overflow: hidden;
+.head-nav .navbar ul {
+	/*overflow: hidden;*/
 	list-style-type: none;
+	display: flex;
+	flex-direction: row;
 }
-header nav ul li {
+.head-nav .navbar ul li {
 	left: none;
+	
 }
-header nav ul li a {
+.head-nav .navbar ul li a {
 	color: #fff;
 	padding: 20px;
 	display: block;
 	text-decoration: none;
 }
-header nav ul li span {
+.head-nav .navbar ul li span {
 	margin-right: 10px;
 } 
-header nav ul li a:hover{
+.head-nav .navbar ul li a:hover{
 	background-color: #131920;
 
 }
-@media screen and (max-width: 425px){
-	header nav {
+/*@media screen and (max-width: 425px){
+	.head-nav .navbar {
 		width: 100%;
 		height: 80%;
 		left: -100%;
 		margin: 0;
 		position: fixed;
 	}
-	header nav ul li {
+	.head-nav .navbar ul li {
 		display: block;
 		float: none;
 		border-bottom: 1px solid blue;
@@ -360,5 +363,111 @@ header nav ul li a:hover{
 	.menu-bar span {
 		float: right;
 		font-size: 40px;
+	}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+header {
+	background-color: #131925;
+}
+
+header .container-fluid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hamburger {
+	position: absolute;
+	border: none;
+	background: transparent;
+	color: #FFF;
+	top: 13px;
+	left: 7px;
+	font-size: 1.3em;
+}
+
+.techademy {
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 1px;
+	color: transparent;
+	width: 165px;
+	margin: 10px auto;
+	display: block;
+	height: 39px;
+}
+
+.navigation {
+	position: absolute;
+	background-color: #131925;
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	max-width: 320px;
+	top: 0;
+	left: -101%;
+	z-index: 1;
+}
+.navigation.open, .navigation .dropMenu.open {
+	left: 0;
+}
+.navigation li a {
+	display: block;
+	padding: 15px;
+}
+
+.navigation .close, .navigation .back {
+	text-align: right;
+}
+
+.navigation .dropMenu {
+	position: absolute;
+	width: 320px;
+	top: 0;
+	left: -101%;
+	background-color: #131925;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+@media screen and (min-device-width: 992px) 
+{
+	.hamburger, .navigation .close, .navigation .back {
+		display: none;
+	}
+	.techademy {
+		margin: 10px 20px;
+	}
+	.navigation {
+		position: static;
+		flex-direction: row;
+		max-width: unset;
+		width: unset;
+	}
+	.navigation li {
+		position: relative;
+	}
+	.navigation .dropMenu {
+		left: 0;
+		top: 45px;
+		display: none;
+	}
+	.navigation .dropMenu.open {
+		display: block;
 	}
 }
