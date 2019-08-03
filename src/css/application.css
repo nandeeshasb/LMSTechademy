@@ -298,20 +298,67 @@ ol, ul {
 }
 header {
 	background-color: #131925;
-	left: 0;
-	top: 0;
+	width: 100%;
 }
-.techademy1 {
-	color:transparent;
-	background-image: url("../img/techademy.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	
+header nav {
+	width: 100%;
+	max-width: 1200px;
+	margin: 20px auto;
+	background-color: #131925;
 }
-.hamburger {
-	float: right;
+.manu-bar {
+	display:none;
 }
-#show1 {
+header nav ul {
 	overflow: hidden;
+	list-style-type: none;
 }
-  
+header nav ul li {
+	left: none;
+}
+header nav ul li a {
+	color: #fff;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li span {
+	margin-right: 10px;
+} 
+header nav ul li a:hover{
+	background-color: #131920;
+
+}
+@media screen and (max-width: 425px){
+	header nav {
+		width: 100%;
+		height: 80%;
+		left: -100%;
+		margin: 0;
+		position: fixed;
+	}
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid blue;
+	}
+	.menu-bar {
+		display: block;
+		width: 100%;
+		background-color: #131925;
+	}
+	.menu-bar .bt-menu {
+		display: block;
+		padding: 20px;
+		background-color: #131925;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		box-sizing: border-box;
+	}
+	.menu-bar span {
+		float: right;
+		font-size: 40px;
+	}
+}

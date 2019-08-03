@@ -1,0 +1,133 @@
+/*.logo {
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 22px;
+	color: transparent;
+	width: 150px;
+}
+.nn1 .nn2 {
+	list-style-type: none;
+	display: flex;
+	padding: 10px 10px;
+}
+.nn1 .nn2 a {
+	padding: 20px;
+}
+.section-images {
+	background-image: url("../img/learn-lang.jpg");
+	background-size: 100%;
+	height: 500px;
+}
+ul li {
+	list-style-type: none;
+}
+.center {
+	text-align: center;
+	margin-top: -185px;
+}
+.right {
+	text-align: right;
+	margin-top: -185px;
+	margin-right: 50px;
+}
+.left {
+	margin-left: 50px;
+}
+.list-form {
+	margin-left: 20px;
+	padding: 20px 20px;
+}
+.foot-list ul {
+
+	display: flex;
+	padding: 10px 30px;
+}
+.foot-list ul li {
+	padding: 10px 20px;
+	color: #fff;
+}
+.foot-list {
+	background-color: #000;
+}*/
+.head-table {
+	background-color: #000000;
+	margin: auto 15px;
+	padding: 10px;
+}
+.head-tr {
+	padding: 10px 10px;
+}
+.logo {
+	background-image: url("../img/techademy.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-size: 22px;
+	color: transparent;
+	width: 150px;
+}
+.navlink {
+	padding: 0 50px;
+}
+.navlink a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.banner-table {
+	background-image: url("../img/learn-lang.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.text-center {
+	color: blue;
+	padding-top: 100px;
+}
+.heading-table {
+	padding: 10px;
+}
+.heading-th {
+	color: blue;
+
+}
+.heading-td1 {
+	text-align: center; 
+
+
+}
+.heading-td1 img {
+	margin-top: 20px;
+}
+ul li {
+	list-style-type: none;
+}
+.form-table {
+	padding:10px;
+
+}
+.form-head input {
+	width: 500px;
+}
+.head-list {
+	padding: 10px
+}
+.footer-table {
+	display: flex;
+	background-color: #000000;
+	margin: auto 15px;
+	padding: 10px;
+}
+.footer-th {
+	color: #fff;
+
+}
+.footer-th th {
+	margin-left: 10px;
+}
+.foot-list {
+	padding-left: 20px;
+}
+.foot-list1 {
+	float: right;
+}
