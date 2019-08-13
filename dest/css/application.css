@@ -370,7 +370,9 @@ ol, ul {
 
 
 
-
+body {
+	background-color:#131925; 
+}
 
 
 
@@ -470,4 +472,136 @@ header .container-fluid {
 	.navigation .dropMenu.open {
 		display: block;
 	}
+}
+section {
+	left: 0;
+	top: 0;
+	background-color: #28303d;
+	padding: 10px 0;
+	
+}
+.glyphicon-search{
+	top: -25px;
+	float: right;
+	left: -30px;
+}
+.hambu-head {
+	position: relative;
+	background-color:#28303d;
+	float: right; 
+	border: none;
+	font-size: 16px;
+	color: white;
+}
+.search input{
+	width: 90%;
+	background-color:#3d464a;
+	border:none;
+}
+.head-main {
+	display: none;
+}
+
+
+@media screen and (min-device-width: 768px) {
+	.search input {
+		width: 40%;
+	}
+	.hambu-head {
+		display: none;
+	}
+	.glyphicon-search{
+		top: -25px;
+		float: right;
+		left: -450px;
+	}
+	.head-main {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 310px;
+    	margin-top: -30px;
+	}
+	.head-main a {
+		color: #f5b505;
+	}
+	.head-main span {
+		padding-left: 5px;
+		color: grey;
+	}
+}
+@media screen and (min-device-width: 1024px) {
+	.head-main {
+		position: relative;
+		justify-content: flex-end;
+		margin-left: 30px;
+	}
+	.head-main li {
+		padding: 0 20px;
+	}
+	.glyphicon-search{
+		top: -25px;
+		float: left;
+		left: 370px;
+		
+	}
+}
+
+/*----footer start----*/
+.footer-bottom {
+	display: none;
+}
+footer {
+	background-color: #131925;
+}
+.footer-item:after { 
+	content: " | ";
+	color: white;
+	margin-left: 20px;
+
+}
+@media screen and (min-device-width: 768px){
+	.footer-bottom {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+	}
+	.footer-bottom li {
+		padding: 10px 10px;
+	}
+	.footer-item1 {
+		margin-left: 230px;
+	}
+}	
+
+@media screen and (min-device-width: 1024px) {
+	.footer-item1 {
+		margin-left: 490px;
+	}
+}
+.progress-bg {
+	background-color:#28303d; 
+	padding:10px 10px;
+	margin: 10px 0;
+}
+h4,span{
+	color: white;
+}
+.progress-warning {
+	width: 45%;
+	border-radius: 50px;
+	height: 20px;
+
+}
+.progress-orange {
+	width: 80%;
+	border-radius: 50px;
+	height: 20px;
+
+}
+.progress-success {
+	width: 55%;
+	border-radius: 50px;
+	height: 20px;
+
 }
