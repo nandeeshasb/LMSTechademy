@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Home page </title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/application.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +25,7 @@
 					<a href="#"><span class="glyphicon glyphicon-home"></a>
 				</li>
 				<li>
-					<a href="#">COURSE CATELOGUE</a>
+					<a href="course-catelogue.html">COURSE CATELOGUE</a>
 				</li>
 				<li>
 					<a href="#" class="hasSubmenu">MY LEARNING <span class="glyphicon glyphicon-menu-down"></span></a>
@@ -299,11 +300,10 @@
 	</div>
 <!-- end with table content-->
 <!-- course images start-->
-	<div class="container-fluid">
-		
-			<div class="course-recom"><h5>Course Recommendations <span class="glyphicon glyphicon-menu-down"></span></h5></div>
+	<div class="container-fluid">			
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-9 col-lg-9">
+				<div class="course-recom"><h5>Course Recommendations <span class="glyphicon glyphicon-menu-down"></span></h5></div>
 				<div class="row">
 					<div class="col-md-4 col-lg-4">
 						<div class="card card-border">
@@ -337,6 +337,11 @@
 					</div>
 				</div>
 			</div>	
+			<div class="col-12 col-sm-12 col-md-3 col-lg-3">
+				<div class="dates">
+					<input type="text" autocomplete="off" id="user2" class="form-control" name="date" placeholder="yyyy-mm-dd" />
+				</div>
+			</div>
 		</div>
 	</div>
 <!-- course images end-->
@@ -352,8 +357,9 @@
 	</footer>
 
 
-	<script type="text/javascript" href="js/jquery.js"></script>
-	<script type="text/javascript" href="js/bootstrap.js"></script>
-	<script type="text/javascript" href="js/application.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
 </body>
 </html>

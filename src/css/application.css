@@ -552,7 +552,8 @@ section {
 	display: none;
 }
 footer {
-	background-color: #131925;
+	background-color: #28303d;
+	margin-top: 100px;
 }
 .footer-item:after { 
 	content: " | ";
@@ -648,7 +649,50 @@ table {
 .card-border {
 	border:none;
 	margin: 0 -5px;
+	height: 250px;
 }
 .course-recom span {
 	float: right;
+}
+.dates {
+	background-color: #28303d;
+	margin-bottom: 100px;
+	color: #2471a3;
+}
+
+/*---- course catelogue-----*/
+
+.banner-bg {
+	height: 250px;
+	width:100%;
+	margin-top: -12px;
+}
+.online-img {
+	margin-top: -150px;
+	text-align: center;
+	color: #fff;
+}
+.bar-button {
+	margin-top: 102px;
+	background-color: #28303d;
+}
+.button-ul-left{
+	display: flex;
+	padding: 10px 10px;
+}
+
+.button-li {
+	display: none;
+}
+@media screen and (min-device-width: 768px) {
+	.button-li {
+		display: flex;
+		margin-top: -38px;
+		padding-right: 20px;
+	}
+	.one {
+		border:1px solid #fff;
+		border-radius: 50px;
+		padding-bottom: -15px;
+	}
 }
