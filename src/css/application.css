@@ -691,8 +691,109 @@ table {
 		padding-right: 20px;
 	}
 	.one {
-		border:1px solid #fff;
+		
 		border-radius: 50px;
 		padding-bottom: -15px;
+		margin-top: -51px;
+	}
+	.one span {
+		margin-top:15px;
+		left: -30px;
+	}
+	.one input {
+		background-color: #28303d;
+		border:1px solid grey;
+	}
+}
+.bread-one {
+	background-color:#131925;
+	display: flex;
+	margin-left: -8px;
+	padding: 0px;
+}
+.bread-one li {
+	margin-left: -8px;
+	padding-left: 4px;
+}
+.card-course {
+	background-color: #28303d;
+}
+.card-span {
+	color:#f8fc03;
+	font-size: 15px;
+	top: -26px;
+	float: right;
+}
+.card-span1 {
+	
+	top: -26px;
+	font-size: 15px;
+	float: right;
+}
+.card-footer {
+	margin-left: -10px;
+	margin-right: -10px;
+	border-top: 1px solid #131925;
+}
+.card-footer a {
+	float: right;
+	border-radius: 50px;
+	margin-right: -23px;
+}
+.card-footer span {
+	padding: 0 0px;
+}
+.card-footer.card-span-left {
+	padding: 10px 10px;
+}
+
+/* <------------------------- my learning start --------------------->*/
+.my-li {
+	margin-top: -29px;
+}
+.my-li a {
+	color: blue;
+	text-decoration: underline;
+}
+.btn-card {
+	border-radius: 50px;
+}
+.my-button{
+	background-color: #28303d;
+}
+
+/*-------------------My Skills Css start-----------------*/
+.grid-main{
+	margin-top: 120px;
+}
+.grid-block1 {
+	background-color: #28303d;
+	padding: 10px 10px
+	
+}
+.center-middle {
+	left: 120px;
+}
+.border1 {
+	background-color: #262626;
+	border-radius: 50px;
+	margin-bottom: 4px;
+	text-align: center;
+}
+.border-ol{
+	line-height: 2.5em;
+	color: #fff;
+}
+.primary1 {
+	color: green;
+}
+
+@media screen and (min-device-width: 768px) {
+	.border-ol{
+		line-height: 2.5em;
+		color: #fff;
+	}
+	.mycomp {
+		left: -10px;
 	}
 }
