@@ -875,3 +875,33 @@ table {
 	border-bottom: 3px solid #28303d;
 }
 
+/*-------start with social css----*/
+
+@media screen and (min-device-width: 768px) {
+	.nav-social {
+		margin-top: 60px;
+	}
+	.ol-social {
+		background-color:#131925; 
+	}
+	.row-right {
+		background-color:#28303d;
+		padding: 20px 20px; 
+		margin-top: -666px;
+		height: 810px;
+	}
+}
+.ol-social {
+	background-color:#131925; 
+}
+.row-right {
+	background-color:#28303d;
+	padding: 20px 20px; 
+}
+@media screen and (min-device-width: 1024px) {
+	.row-right {
+		height: 675px;
+		margin-top: -564px;
+		padding: 30px 20px;
+	}
+}
